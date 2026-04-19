@@ -45,5 +45,9 @@
       <td><a href="Desafio03_formulario_de_convite">Desafio 03 - Formulário de convite</a></td>
       <td align="center"><a href="Desafio03_formulario_de_convite"><img width="250px" src="Desafio03_formulario_de_convite/project.jpg" /></a></td>
     </tr>
+    <tr>
+      <td><a href="Projeto05_LP_de_produto_zingen">Projeto 5 - Landing Page - Zingen</a></td>
+      <td align="center"><a href="Projeto05_LP_de_produto_zingen"><img width="250px" src="Projeto05_LP_de_produto_zingen/project.png" /></a></td>
+    </tr>
   </tbody>
 </table>
