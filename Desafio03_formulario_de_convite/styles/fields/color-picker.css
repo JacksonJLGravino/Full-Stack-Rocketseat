@@ -1,0 +1,77 @@
+.color-picker {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+/* esconder o radio */
+.color-picker input {
+  display: none;
+}
+
+/* bolinha */
+.color-picker label {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: var(--color);
+  cursor: pointer;
+  position: relative;
+  border: 6px solid var(--shape-button);
+  transition: border-color 0.2s;
+}
+
+/* hover */
+.color-picker label:hover {
+  border-color: var(--shape-hover);
+}
+
+/* borda externa */
+.color-picker label::after {
+  content: "";
+  position: absolute;
+  inset: -6px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  transition: 0.2s;
+}
+
+/* selecionado */
+.color-picker input:checked + label::after {
+  border-color: var(--brand-light); /* cor do destaque */
+}
+
+.color-picker .color1 {
+  background-color: var(--brand-light);
+}
+
+.color-picker .color2 {
+  background-color: var(--navy);
+}
+.color-picker .color3 {
+  background-color: var(--purple);
+}
+.color-picker .color4 {
+  background-color: var(--fuschia);
+}
+.color-picker .color5 {
+  background-color: var(--pink);
+}
+.color-picker .color6 {
+  background-color: var(--danger);
+}
+.color-picker .color7 {
+  background-color: var(--orange);
+}
+.color-picker .color8 {
+  background-color: var(--yellow);
+}
+.color-picker .color9 {
+  background-color: var(--lime);
+}
+.color-picker .color10 {
+  background-color: var(--green);
+}
+.color-picker .color11 {
+  background-color: var(--cyan);
+}

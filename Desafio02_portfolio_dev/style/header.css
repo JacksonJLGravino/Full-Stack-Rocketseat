@@ -1,0 +1,99 @@
+header {
+  background-image: url(../assets/Background_Intro.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#img-profile {
+  margin-bottom: 56px;
+
+  .image-profile {
+    padding: 4px;
+    border: 2px solid var(--red);
+    border-radius: 50%;
+  }
+
+  .code {
+    position: relative;
+    right: 33px;
+  }
+}
+
+#profile {
+  text-align: center;
+  max-width: 680px;
+  margin-top: 120px;
+
+  h6 {
+    color: var(--gray-500);
+  }
+
+  h1 {
+    color: var(--gray-600);
+    margin-top: 8px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    color: var(--gray-400);
+    font: var(--text-sm);
+  }
+}
+
+#tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 80px;
+
+  .tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    border-radius: 100px;
+    background-color: var(--gray-300);
+
+    img {
+      margin-right: 8px;
+      height: 24px;
+      width: 24px;
+    }
+
+    span {
+      font: var(--text-md);
+      color: var(--gray-500);
+    }
+  }
+
+  div:nth-child(2) img {
+    filter: invert(56%) sepia(20%) saturate(1391%) hue-rotate(307deg)
+      brightness(88%) contrast(103%);
+  }
+
+  div:nth-child(3) img,
+  div:nth-child(5) img {
+    filter: invert(52%) sepia(87%) saturate(1232%) hue-rotate(180deg)
+      brightness(90%) contrast(90%);
+  }
+
+  div:nth-child(4) img {
+    filter: invert(69%) sepia(87%) saturate(273%) hue-rotate(359deg)
+      brightness(100%) contrast(89%);
+  }
+
+  div:nth-child(6) img {
+    filter: invert(66%) sepia(11%) saturate(1875%) hue-rotate(49deg)
+      brightness(99%) contrast(92%);
+  }
+}
+
+#caret-double-down {
+  margin-top: 94px;
+  margin-bottom: 57px;
+}

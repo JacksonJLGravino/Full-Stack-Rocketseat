@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+span {
+  font-family: "Open Sans", sans-serif;
+}
+
+#page {
+  background-color: #29292e;
+  padding: 80px;
+}
+
+main {
+  background: #f5f4f0;
+  padding: 88px 80px 48px;
+  margin: auto;
+  max-width: 1440px;
+}
+
+img {
+  width: 100%;
+}
+
+h4 {
+  font-size: 16px;
+  color: #e1624f;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+h1 {
+  margin-bottom: 40px;
+  color: #1b1b1b;
+  font-size: 36px;
+}
+
+.description {
+  margin-top: 24px;
+  font-style: italic;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 40px;
+}
+
+#content {
+  padding-block: 64px 40px;
+  border-block: 1px solid #d9d9d9;
+}
+
+.content-header {
+  margin-bottom: 64px;
+}
+
+h2 {
+  margin-bottom: 8px;
+  font-size: 32px;
+  color: #1b1b1b;
+}
+
+#content .content-text {
+  margin-top: 4px;
+  color: #333333;
+}
+
+#content .card-travel {
+  margin-top: 48px;
+}
+
+h3 {
+  color: #1b1b1b;
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+h5 {
+  margin-top: 16px;
+  color: #333333;
+  font-size: 16px;
+}
+
+ul {
+  list-style: inside;
+}
+
+ul li {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.blue {
+  color: #0c51a7;
+}
+
+.orange {
+  color: #e95e10;
+}
+
+.pink {
+  color: #e5245e;
+}
+
+.purple {
+  color: #591b98;
+}
+
+.text-end {
+  margin-top: 40px;
+  text-align: center;
+  color: #333333;
+}
+
+footer {
+  margin-top: 71px;
+  color: #333333;
+  text-align: center;
+}

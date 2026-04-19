@@ -1,0 +1,25 @@
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding-block: 24px;
+}
+
+main img {
+  width: 286px;
+  height: 286px;
+  object-fit: cover;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (width <= 550px) {
+  main {
+    padding-block: 16px;
+    gap: 16px;
+  }
+}

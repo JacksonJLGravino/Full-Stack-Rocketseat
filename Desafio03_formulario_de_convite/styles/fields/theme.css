@@ -1,0 +1,44 @@
+.themes {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.themes input {
+  display: none;
+}
+
+.themes label {
+  background: var(--shape-button);
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  border: 1px solid var(--input-stroke);
+  transition: background 0.2s;
+
+  display: flex;
+  flex-direction: column;
+  width: 8.375rem;
+  padding: 4px;
+}
+
+.themes label img {
+  width: 100%;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.themes label span {
+  padding-block: 0.5rem 0.25rem;
+  font: var(--body-sm);
+  color: var(--text-heading);
+  text-align: center;
+}
+
+.themes label:hover {
+  background: var(--input-stroke);
+}
+
+.themes input:checked + label {
+  border: 2px solid var(--brand-light);
+}

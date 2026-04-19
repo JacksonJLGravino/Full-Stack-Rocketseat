@@ -1,0 +1,30 @@
+.upload-area {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.upload-area input {
+  display: none;
+}
+
+.upload-button {
+  background: var(--shape-button);
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.75rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.upload-button span {
+  color: var(--text-heading);
+  font: var(--body-sm);
+  font-weight: 600;
+}
+
+.file-name {
+  color: var(--input-placeholder);
+  font: var(--body-md);
+}

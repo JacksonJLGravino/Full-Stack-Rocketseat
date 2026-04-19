@@ -1,0 +1,73 @@
+footer {
+  background-image: url(../assets/Background_Contacts.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  margin-inline: auto;
+  justify-content: center;
+  padding-top: 120px;
+  padding-bottom: 200px;
+
+  .header {
+    text-align: center;
+
+    h6 {
+      color: var(--purple);
+    }
+
+    h2 {
+      color: var(--gray-600);
+      margin-block: 8px;
+    }
+
+    p {
+      color: var(--gray-500);
+      font: var(--text-md);
+    }
+  }
+
+  .linktree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-inline: auto;
+    gap: 16px;
+    margin-top: 48px;
+
+    a {
+      width: 400px;
+      text-decoration: none;
+      padding: 20px 24px 20px 20px;
+      background-color: var(--gray-300);
+      border-radius: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    div {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+
+      p {
+        color: var(--gray-500);
+        font: var(--text-md);
+      }
+    }
+
+    a:hover {
+      div {
+        p {
+          color: var(--blue);
+        }
+        img {
+          filter: invert(52%) sepia(87%) saturate(1232%) hue-rotate(180deg)
+            brightness(90%) contrast(90%);
+        }
+      }
+    }
+  }
+}

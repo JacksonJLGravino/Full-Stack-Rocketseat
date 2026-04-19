@@ -1,0 +1,57 @@
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  cursor: pointer;
+}
+
+.checkbox input {
+  display: none;
+}
+
+.checkmark {
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 4px;
+  border: 1px solid var(--input-stroke);
+  background: var(--input-base);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.checkmark::after {
+  content: "";
+  width: 14px;
+  height: 14px;
+  background-color: var(--brand-light);
+
+  -webkit-mask: url("/assets/check.svg") no-repeat center;
+  mask: url("/assets/check.svg") no-repeat center;
+
+  -webkit-mask-size: contain;
+  mask-size: contain;
+
+  opacity: 0;
+}
+
+/* estado checked */
+.checkbox input:checked + .checkmark {
+  border-color: var(--brand-light);
+}
+
+/* mostrar check */
+.checkbox input:checked + .checkmark::after {
+  opacity: 1;
+}
+
+.checkbox-text {
+  font: var(--body-sm);
+  color: var(--text-body);
+}
+
+.checkbox-text a {
+  font-weight: 600;
+  color: var(--brand-light);
+}

@@ -1,0 +1,49 @@
+# Full-Stack Rocketseat
+
+<p align="center">Minha resolução dos projetos e desafios do Full-Stack da Rocketseat
+<br>
+<a href="https://www.rocketseat.com.br" target="_blank">Conheça a Rocketseat</a>
+</p>
+
+<table align="center">
+  <thead>
+    <tr>
+      <th align="center">
+        <p>Nome<p>
+      </th>
+      <th align="center">
+        <p>Preview<p>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="Projeto01_pagina_de_receita">Projeto 1 - Página de receita</a></td>
+      <td align="center"><a href="Projeto01_pagina_de_receita"><img width="250px" src="Projeto01_pagina_de_receita/Cape.jpg" /></a></td>
+    </tr>
+    <tr>
+      <td><a href="Desafio01_local_turistico">Desafio 01 - Local turístico</a></td>
+      <td align="center"><a href="Desafio01_local_turistico"><img width="250px" src="Desafio01_local_turistico/Cape.jpg" /></a></td>
+    </tr>
+    <tr>
+      <td><a href="Projeto02_perfil_de_viagens">Projeto 2 - Perfil de viagens - Travelgram</a></td>
+      <td align="center"><a href="Projeto02_perfil_de_viagens"><img width="250px" src="Projeto02_perfil_de_viagens/cape.png" /></a></td>
+    </tr>
+    <tr>
+      <td><a href="Projeto03_portal_de_noticias">Projeto 3 - Portal de notícias</a></td>
+      <td align="center"><a href="Projeto03_portal_de_noticias"><img width="250px" src="Projeto03_portal_de_noticias/cape.png" /></a></td>
+    </tr>
+    <tr>
+      <td><a href="Desafio02_portfolio_dev">Desafio 02 - Portfólio Dev</a></td>
+      <td align="center"><a href="Desafio02_portfolio_dev"><img width="250px" src="Desafio02_portfolio_dev/project.png" /></a></td>
+    </tr>
+    <tr>
+      <td><a href="Projeto04_formulario_de_matricula">Projeto 4 - Formulário de matrícula</a></td>
+      <td align="center"><a href="Projeto04_formulario_de_matricula"><img width="250px" src="Projeto04_formulario_de_matricula/project.png" /></a></td>
+    </tr>
+    <tr>
+      <td><a href="Desafio03_formulario_de_convite">Desafio 03 - Formulário de convite</a></td>
+      <td align="center"><a href="Desafio03_formulario_de_convite"><img width="250px" src="Desafio03_formulario_de_convite/project.jpg" /></a></td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,63 @@
+.radio-wrapper {
+  display: flex;
+  border-radius: 8px;
+  padding: 4px;
+  gap: 4px;
+  border: 1px solid var(--input-stroke);
+  background-color: var(--input-base);
+  justify-content: space-between;
+}
+
+.radio-wrapper input {
+  display: none;
+}
+
+.radio-wrapper label::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background-color: var(--input-placeholder);
+  margin-right: 8px;
+}
+
+#presencial::before {
+  -webkit-mask: url("/assets/building-2.svg") no-repeat center;
+  mask: url("/assets/building-2.svg") no-repeat center;
+
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
+
+#online::before {
+  -webkit-mask: url("/assets/video.svg") no-repeat center;
+  mask: url("/assets/video.svg") no-repeat center;
+
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
+
+.radio-wrapper label {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font: var(--body-sm);
+  cursor: pointer;
+  color: var(--text-body);
+  transition: all 0.2s ease;
+}
+
+.radio-wrapper label:hover {
+  background: var(--shape-button);
+}
+
+.radio-wrapper input:checked + label {
+  background: var(--shape-button);
+  color: var(--text-heading);
+  font-weight: 600;
+}
+
+.radio-wrapper input:checked + label::before {
+  background-color: var(--brand-light);
+}

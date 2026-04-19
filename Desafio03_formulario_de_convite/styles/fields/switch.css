@@ -1,0 +1,61 @@
+.switch-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.switch-wrapper input {
+  display: none;
+}
+
+.switch {
+  position: relative;
+  width: 4rem;
+  height: 2rem;
+}
+
+.slider {
+  position: absolute;
+  inset: 0;
+  border-radius: 999px;
+  border: 1px solid var(--input-stroke);
+  background: var(--input-base);
+  transition: all 0.25s ease;
+}
+
+.slider::before {
+  content: "";
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+
+  top: 50%;
+  left: 3px;
+  transform: translateY(-50%);
+
+  background: var(--input-stroke);
+  transition: all 0.25s ease;
+}
+
+#modo:checked + .switch .slider {
+  background: var(--brand-light);
+}
+
+#modo:checked + .switch .slider::before {
+  transform: translate(2rem, -50%);
+  background: var(--text-heading);
+}
+
+.mode-text {
+  font: var(--body-sm);
+  color: var(--text-heading);
+}
+
+.mode-text::after {
+  content: "Escuro";
+}
+
+#modo:checked ~ .mode-text::after {
+  content: "Claro";
+}
