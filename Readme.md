@@ -49,5 +49,9 @@
       <td><a href="Projeto05_LP_de_produto_zingen">Projeto 5 - Landing Page - Zingen</a></td>
       <td align="center"><a href="Projeto05_LP_de_produto_zingen"><img width="250px" src="Projeto05_LP_de_produto_zingen/project.png" /></a></td>
     </tr>
+    <tr>
+      <td><a href="Projeto06_LP_animada">Projeto 6 - Landing Page Animada - Snitap</a></td>
+      <td align="center"><a href="Projeto06_LP_animada"><img width="250px" src="Projeto06_LP_animada/project.jpg" /></a></td>
+    </tr>
   </tbody>
 </table>
