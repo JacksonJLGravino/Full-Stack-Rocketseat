@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  margin-top: 1.625rem;
+
+  & a {
+    font-family: "Sora", sans-serif;
+    font-size: 1.625rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    letter-spacing: -2%;
+    color: var(--content-secondary);
+  }
+}
+
+@media (max-width: 400px) {
+  header {
+    display: none;
+  }
+}

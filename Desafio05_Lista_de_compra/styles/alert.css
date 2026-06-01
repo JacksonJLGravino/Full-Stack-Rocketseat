@@ -1,0 +1,25 @@
+.alert {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem;
+  background: var(--color-danger);
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+
+  & p {
+    font: var(--label);
+    color: var(--always-white);
+  }
+
+  & button {
+    margin-left: auto;
+    background: transparent;
+    height: 20px;
+    cursor: pointer;
+  }
+}
+
+.hidden {
+  display: none;
+}

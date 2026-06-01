@@ -1,0 +1,67 @@
+.shopping-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 2.25rem;
+
+  & li {
+    padding: 0.875rem;
+    background: var(--always-white);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+
+    &.completed span {
+      text-decoration: line-through;
+      opacity: 0.6;
+    }
+
+    & label {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      cursor: pointer;
+
+      & span {
+        font: var(--paragraph);
+        color: var(--content-secondary);
+      }
+
+      & input[type="checkbox"] {
+        appearance: none;
+        width: 1rem;
+        height: 1rem;
+        border: 1px solid var(--border-primary);
+        border-radius: 6px;
+        cursor: pointer;
+        transition: 0.2s;
+        position: relative;
+
+        &:hover {
+          border-color: var(--border-hover);
+        }
+
+        &:checked {
+          background: var(--color-brand);
+          border-color: var(--color-brand);
+        }
+
+        &:checked::after {
+          content: "";
+          position: absolute;
+          inset: 0;
+          background-image: url("../assets/checked.svg");
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+      }
+    }
+
+    & button {
+      cursor: pointer;
+      background-color: transparent;
+    }
+  }
+}
