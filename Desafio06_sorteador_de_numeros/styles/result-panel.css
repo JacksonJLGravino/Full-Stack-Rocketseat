@@ -1,0 +1,135 @@
+.result-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25rem;
+
+  & .result-label {
+    display: block;
+    margin-top: 0.25rem;
+    margin-bottom: 2.5rem;
+    font: var(--overline);
+    color: var(--content-secondary);
+  }
+
+  & .result-numbers {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+    flex-wrap: wrap;
+
+    & span {
+      font: var(--number);
+      color: var(--content-brand);
+    }
+  }
+
+  & .btn {
+    width: 100%;
+    border-radius: 8px;
+    padding-block: 16px;
+    background: var(--background-tertiary);
+    color: var(--content-primary);
+    font: var(--label-small);
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+    & img {
+      transition: transform 1s ease;
+    }
+  }
+
+  & .number-animation {
+    position: relative;
+
+    width: 80px;
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  & .box {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 28px;
+    background: var(--background-brand);
+    animation: boxAnimation 1.8s ease-in-out forwards;
+  }
+
+  & .number {
+    color: transparent;
+    animation: numberAnimation 1.8s ease forwards;
+  }
+
+  & .btn:hover {
+    background: var(--background-secondary);
+
+    & img {
+      animation: rotateAnimate 2s ease-in-out infinite;
+    }
+  }
+}
+
+@keyframes boxAnimation {
+  0% {
+    opacity: 0;
+    transform: scale(0) rotate(0deg);
+  }
+
+  20% {
+    opacity: 1;
+    transform: scale(1) rotate(36deg);
+  }
+
+  80% {
+    opacity: 1;
+    transform: scale(1) rotate(144deg);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(0.7) rotate(180deg);
+  }
+}
+
+@keyframes numberAnimation {
+  0% {
+    color: transparent;
+    transform: scale(0);
+  }
+
+  40% {
+    color: var(--background-primary);
+    transform: scale(1);
+  }
+
+  80% {
+    color: var(--background-primary);
+  }
+
+  100% {
+    color: var(--content-brand);
+    transform: scale(1);
+  }
+}
+
+@keyframes rotateAnimate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,24 @@
+.logo {
+  max-width: 1126px;
+  margin-inline: auto;
+  padding-left: 0.875rem;
+  margin-top: 4.75rem;
+  margin-bottom: 5.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+
+  & span {
+    color: var(--content-primary);
+    font: var(--display-logo);
+  }
+}
+
+@media (max-width: 900px) {
+  .logo {
+    justify-content: center;
+    margin-top: 2.75rem;
+    margin-bottom: 2.75rem;
+    padding-left: 0;
+  }
+}

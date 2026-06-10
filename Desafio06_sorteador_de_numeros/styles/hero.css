@@ -1,0 +1,29 @@
+.hero {
+  display: flex;
+  gap: 0.75rem;
+  flex-direction: column;
+  grid-area: A;
+
+  & .tag {
+    display: block;
+
+    color: var(--content-secondary);
+    font: var(--overline);
+  }
+
+  & h1 {
+    color: var(--content-primary);
+    font: var(--display-large);
+  }
+}
+
+@media (max-width: 900px) {
+  .hero {
+    margin-inline: auto;
+    gap: 0.5rem;
+
+    & h1 {
+      font: var(--display-medium);
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.faq {
+  display: flex;
+  flex-direction: column;
+  gap: 2.25rem;
+  margin-top: 2.5rem;
+  max-width: 24.125rem;
+  grid-area: C;
+
+  & article {
+    display: flex;
+    gap: 0.5rem;
+
+    & img {
+      height: 20px;
+      width: 20px;
+    }
+
+    & h3 {
+      color: var(--background-brand);
+      font: var(--paragraph-medium);
+    }
+
+    & p {
+      color: var(--content-secondary);
+      font: var(--paragraph-small);
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .faq {
+    margin-inline: auto;
+    margin-top: 5rem;
+    max-width: 20rem;
+  }
+}

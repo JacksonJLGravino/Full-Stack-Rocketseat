@@ -1,0 +1,144 @@
+.sort-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+
+  & h2 {
+    color: var(--content-primary);
+    font: var(--label-medium);
+  }
+
+  & p {
+    font: var(--paragraph-large);
+    color: var(--content-secondary);
+  }
+
+  & .inputs {
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+
+    & .inputs-container {
+      display: flex;
+      gap: 0.75rem;
+
+      & .field {
+        max-width: 5.5rem;
+        text-align: center;
+
+        & label {
+          display: block;
+          margin-bottom: 0.5rem;
+          color: var(--content-secondary);
+          font: var(--label-small);
+          transition: color 0.3s ease;
+        }
+
+        & input {
+          width: 100%;
+          padding: 0.5rem 0.25rem;
+          background: var(--background-secondary);
+          border-radius: 8px;
+
+          text-align: center;
+          font: var(--display-small);
+          color: var(--content-primary);
+          transition: background 0.3s ease;
+        }
+
+        &:hover {
+          & label {
+            color: var(--background-brand);
+          }
+          & input {
+            background: var(--background-tertiary);
+          }
+        }
+      }
+    }
+
+    & .switch-container {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      cursor: pointer;
+
+      & input {
+        display: none;
+
+        &:checked + .switch {
+          background: var(--gradient-background);
+        }
+
+        &:checked + .switch::before {
+          left: 13px;
+        }
+      }
+
+      & .switch {
+        width: 30px;
+        height: 20px;
+        background: var(--content-tertiary);
+        border-radius: 50px;
+        position: relative;
+        transition: 0.3s;
+      }
+
+      & .switch::before {
+        content: "";
+
+        width: 14px;
+        height: 14px;
+
+        background: var(--content-primary);
+        border-radius: 50%;
+
+        position: absolute;
+        top: 3px;
+        left: 3px;
+
+        transition: 0.3s;
+      }
+    }
+  }
+
+  & .btn {
+    width: 100%;
+    border-radius: 8px;
+    padding-block: 16px;
+    background: var(--background-tertiary);
+    color: var(--content-primary);
+    font: var(--label-small);
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+    & img {
+      transition: transform 1s ease;
+    }
+  }
+
+  & .btn:hover {
+    background: var(--background-secondary);
+
+    & img {
+      animation: arrowMove 1s ease-in-out infinite;
+    }
+  }
+}
+
+@keyframes arrowMove {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(6px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
