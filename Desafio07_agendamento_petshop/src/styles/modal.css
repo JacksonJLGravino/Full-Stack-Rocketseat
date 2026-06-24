@@ -1,0 +1,164 @@
+.modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+}
+
+.modal-content {
+  width: 100%;
+  max-width: 30rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  background: var(--background-tertiary);
+}
+
+.modal-content h2 {
+  font: var(--title);
+  color: var(--content-primary);
+}
+
+.modal-content p {
+  margin-top: 4px;
+  font: var(--paragraph-medium);
+  color: var(--content-secondary);
+}
+
+.modal-content form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1.75rem;
+}
+
+form .field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.field label {
+  font: var(--label-medium);
+  color: var(--content-primary);
+}
+
+.field .input-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem;
+  background: transparent;
+  border: 1px solid var(--border-primary);
+  border-radius: 8px;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.field .text-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem;
+  background: transparent;
+  border: 1px solid var(--border-primary);
+  border-radius: 8px;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.text-wrapper .text-input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  resize: none;
+
+  color: var(--content-primary);
+  font: var(--paragraph-medium);
+}
+
+.input-wrapper:hover,
+.text-wrapper:hover {
+  border-color: var(--border-secondary);
+}
+
+.input-wrapper:focus-within,
+.text-wrapper:focus-within {
+  border-color: var(--border-brand);
+}
+
+.input-wrapper .input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+
+  color: var(--content-primary);
+  font: var(--paragraph-medium);
+}
+
+.input-wrapper .input::placeholder,
+.text-wrapper .input::placeholder {
+  font: var(--paragraph-medium);
+  color: var(--content-secondary);
+}
+
+.dual-field {
+  display: flex;
+  gap: 1rem;
+}
+
+.dual-field .input-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem;
+  border: 1px solid var(--border-primary);
+  border-radius: 12px;
+}
+
+.time-form,
+.hour-input {
+  background: transparent;
+  border: none;
+  outline: none;
+  margin-left: 8px;
+  color: var(--content-secondary);
+}
+
+.time-form::-webkit-calendar-picker-indicator,
+.hour-input::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  background: url("../assets/chevron-down.svg") no-repeat;
+}
+
+.div-schedule-btn {
+  display: flex;
+  justify-content: right;
+}
+.schedule-btn {
+  background: var(--content-brand);
+  color: var(--background-primary);
+  border: none;
+  cursor: pointer;
+  font: var(--label-large);
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  max-width: 8rem;
+  transition: background 0.3s;
+}
+
+.schedule-btn:hover {
+  background: var(--background-highlights);
+}
+
+@media (max-width: 768px) {
+  .dual-field {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,41 @@
+.sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.sidebar .logo {
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--background-tertiary);
+  border-radius: 0 0 12px 0;
+}
+
+.sidebar span {
+  font: var(--label-large);
+  color: var(--content-brand);
+}
+
+.new-appointment {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  border: none;
+  background: var(--background-brand);
+  font: var(--label-large);
+  padding: 0.75rem 1.5rem;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s;
+
+  box-shadow:
+    0 0 20px rgba(146, 130, 250, 0.3),
+    0 0 40px rgba(146, 130, 250, 0.2);
+}
+
+.new-appointment:hover {
+  background: var(--background-highlights);
+}

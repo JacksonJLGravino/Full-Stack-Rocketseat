@@ -1,0 +1,61 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-block: 5rem;
+}
+
+.content .page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 2rem;
+}
+
+.page-header h1 {
+  color: var(--content-primary);
+  font: var(--title);
+}
+
+.page-header p {
+  margin-top: 0.25rem;
+
+  color: var(--content-secondary);
+  font: var(--paragraph-medium);
+}
+
+.content .date-picker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-block: 0.375rem;
+  margin-left: 4rem;
+  padding: 0.75rem;
+  background: #14151d;
+  border: 1px solid var(--border-primary);
+  border-radius: 12px;
+}
+
+.date-picker .date-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  margin-left: 20px;
+  color: var(--content-secondary);
+}
+
+.date-input::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  background: url("../assets/chevron-down.svg") no-repeat;
+}
+
+@media (max-width: 768px) {
+  .page-header {
+    flex-direction: column;
+  }
+
+  .content .date-picker {
+    margin-left: 0rem;
+  }
+}
