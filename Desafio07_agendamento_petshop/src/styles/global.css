@@ -50,7 +50,3 @@ body {
 .content {
   margin-inline: 80px;
 }
-
-.active {
-  display: none !important;
-}

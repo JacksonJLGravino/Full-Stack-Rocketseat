@@ -6,6 +6,7 @@
   align-items: center;
   background: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(4px);
+  overflow-y: auto;
 }
 
 .modal-content {
@@ -13,6 +14,16 @@
   max-width: 30rem;
   padding: 2rem;
   border-radius: 1rem;
+  background: var(--background-tertiary);
+  position: relative;
+}
+
+.modal-content .close {
+  border: none;
+  position: absolute;
+  right: 1rem;
+  top: 20px;
+  cursor: pointer;
   background: var(--background-tertiary);
 }
 
@@ -158,6 +169,10 @@ form .field {
 }
 
 @media (max-width: 768px) {
+  .modal-content {
+    padding-inline: 1rem;
+    margin-top: 5rem;
+  }
   .dual-field {
     flex-direction: column;
   }
