@@ -35,7 +35,7 @@
           <div class="date-picker">
             <img src="./src/assets/calendar.svg" alt="" class="date-icon" />
 
-            <input type="date" class="date-input" />
+            <input type="date" id="date-picker" class="date-input" />
           </div>
         </header>
 
@@ -164,6 +164,7 @@
                 type="text"
                 class="input"
                 placeholder="Helena Souza"
+                required
               />
             </div>
           </div>
@@ -174,7 +175,13 @@
             <div class="input-wrapper">
               <img src="./src/assets/pet.svg" alt="" class="icon" />
 
-              <input id="pet" type="text" class="input" placeholder="Cheddar" />
+              <input
+                id="pet"
+                type="text"
+                class="input"
+                placeholder="Cheddar"
+                required
+              />
             </div>
           </div>
 
@@ -189,6 +196,7 @@
                 type="tel"
                 class="input"
                 placeholder="(00) 0 0000-0000"
+                required
               />
             </div>
           </div>
@@ -203,6 +211,7 @@
                 placeholder="Banho e tosa"
                 class="text-input"
                 rows="2"
+                required
               ></textarea>
             </div>
           </div>
@@ -214,7 +223,13 @@
               <div class="input-wrapper">
                 <img src="./src/assets/calendar.svg" alt="" class="time-icon" />
 
-                <input type="date" id="date" class="time-form" name="date" />
+                <input
+                  type="date"
+                  id="date"
+                  class="time-form"
+                  name="date"
+                  required
+                />
               </div>
             </div>
 
@@ -224,7 +239,16 @@
               <div class="input-wrapper">
                 <img src="./src/assets/clock.svg" alt="" class="hour-icon" />
 
-                <input type="time" id="hour" class="hour-input" name="hour" />
+                <input
+                  type="time"
+                  id="hour"
+                  class="hour-input"
+                  name="hour"
+                  min="09:00"
+                  max="21:00"
+                  step="1800"
+                  required
+                />
               </div>
             </div>
           </div>
