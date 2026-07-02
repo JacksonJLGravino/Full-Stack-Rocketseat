@@ -53,5 +53,9 @@
       <td><a href="Projeto06_LP_animada">Projeto 6 - Landing Page Animada - Snitap</a></td>
       <td align="center"><a href="Projeto06_LP_animada"><img width="250px" src="Projeto06_LP_animada/project.jpg" /></a></td>
     </tr>
+    <tr>
+      <td><a href="Desafio04_LP_clube_de_assinatura">Desafio 04 - LP de Clube de Assinatura</a></td>
+      <td align="center"><a href="Desafio04_LP_clube_de_assinatura"><img width="250px" src="Desafio04_LP_clube_de_assinatura/project.png" /></a></td>
+    </tr>
   </tbody>
 </table>

@@ -5,7 +5,7 @@ Desafio realizado durante o curso Full-Stack da Rocketseat
 </p>
 
 <p aling="center">
-  <img src=".github/Cape.jpg" alt="" width="100%" />
+  <img src="Cape.jpg" alt="" width="100%" />
 </p>
 
 ## Tecnologias
