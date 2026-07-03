@@ -57,5 +57,9 @@
       <td><a href="Desafio04_LP_clube_de_assinatura">Desafio 04 - LP de Clube de Assinatura</a></td>
       <td align="center"><a href="Desafio04_LP_clube_de_assinatura"><img width="250px" src="Desafio04_LP_clube_de_assinatura/project.png" /></a></td>
     </tr>
+    <tr>
+      <td><a href="Projeto07_convert_template">Projeto 7 - Conversor de moeda</a></td>
+      <td align="center"><a href="Projeto07_convert_template"><img width="250px" src="Projeto07_convert_template/project.png" /></a></td>
+    </tr>
   </tbody>
 </table>
