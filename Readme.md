@@ -61,5 +61,9 @@
       <td><a href="Projeto07_convert_template">Projeto 7 - Conversor de moeda</a></td>
       <td align="center"><a href="Projeto07_convert_template"><img width="250px" src="Projeto07_convert_template/project.png" /></a></td>
     </tr>
+    <tr>
+      <td><a href="Desafio05_Lista_de_compra">Desafio 05 - Lista de compra</a></td>
+      <td align="center"><a href="Desafio05_Lista_de_compra"><img width="250px" src="Desafio05_Lista_de_compra/project.png" /></a></td>
+    </tr>
   </tbody>
 </table>
