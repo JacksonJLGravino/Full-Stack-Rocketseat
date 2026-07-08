@@ -65,5 +65,25 @@
       <td><a href="Desafio05_Lista_de_compra">Desafio 05 - Lista de compra</a></td>
       <td align="center"><a href="Desafio05_Lista_de_compra"><img width="250px" src="Desafio05_Lista_de_compra/project.png" /></a></td>
     </tr>
+    <tr>
+      <td><a href="Projeto08_refund">Projeto 8 - Refund</a></td>
+      <td align="center"><a href="Projeto08_refund"><img width="250px" src="Projeto08_refund/project.png" /></a></td>
+    </tr>
+    <tr>
+      <td><a href="Desafio06_sorteador_de_numeros">Desafio 06 - Sorteadir de números</a></td>
+      <td align="center"><a href="Desafio06_sorteador_de_numeros"><img width="250px" src="Desafio06_sorteador_de_numeros/project.png" /></a></td>
+    </tr>
+    <tr>
+      <td><a href="Projeto09_hairday">Projeto 9 - Hairday</a></td>
+      <td align="center"><a href="Projeto09_hairday"><img width="250px" src="Projeto09_hairday/project.png" /></a></td>
+    </tr>
+    <tr>
+      <td><a href="Desafio07_agendamento_petshop">Desafio 07 - Agendamento petshop</a></td>
+      <td align="center"><a href="Desafio07_agendamento_petshop"><img width="250px" src="Desafio07_agendamento_petshop/project.png" /></a></td>
+    </tr>
+    <tr>
+      <td><a href="Projeto10_API_de_ticket_de_suporte">Projeto 10 - API de Ticket de Suporte</a></td>
+      <td align="center" width="250px">API REST simples para gerenciar tickets de suporte (criação, listagem, atualização, fechamento e remoção).</td>
+    </tr>
   </tbody>
 </table>

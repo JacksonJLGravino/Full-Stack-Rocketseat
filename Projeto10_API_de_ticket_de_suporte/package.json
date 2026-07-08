@@ -1,0 +1,13 @@
+{
+  "name": "projeto10_api_de_ticket_de_suporte",
+  "version": "1.0.0",
+  "description": "API de gerenciamento de ticket de suporte",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [],
+  "author": "Jackson Gravino",
+  "license": "ISC",
+  "type": "module"
+}
