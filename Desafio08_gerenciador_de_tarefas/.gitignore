@@ -1,0 +1,77 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Production/Build
+/dist
+/build
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Generated files
+/src/generated/prisma
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.iml
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Cache
+.eslintcache
+.cache/
+.next/
+out/
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+.vitest/
+
+# Prisma
+/prisma/dev.db
+/prisma/dev.db-shm
+/prisma/dev.db-wal
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Node-gyp
+build/Release
+
+# Yarn
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
