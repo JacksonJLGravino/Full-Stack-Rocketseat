@@ -10,7 +10,7 @@ export function Header() {
 
       <div className="flex items-center gap-3">
         <span className="text-sm font-semibold text-gray-200">
-          Olá, Jackson
+          Olá, {auth.session?.user.name}
         </span>
         <img
           src={logoutSVG}
