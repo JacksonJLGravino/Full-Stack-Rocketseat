@@ -85,5 +85,29 @@
       <td><a href="Projeto10_API_de_ticket_de_suporte">Projeto 10 - API de Ticket de Suporte</a></td>
       <td align="center" width="250px">API REST simples para gerenciar tickets de suporte (criação, listagem, atualização, fechamento e remoção).</td>
     </tr>
+    <tr>
+      <td><a href="Projeto11_API_restaurant">Projeto 11 - API restaurante</a></td>
+      <td align="center" width="250px">É uma API simples para gerenciar produtos, mesas, sessões de mesa e pedidos de um restaurante.</td>
+    </tr>
+    <tr>
+      <td><a href="Projeto12_API_entrega_rocketlog">Projeto 12 - API de entrega de encomendas</a></td>
+      <td align="center" width="250px">API de gerenciamento de entregas.</td>
+    </tr>
+    <tr>
+      <td><a href="Desafio08_gerenciador_de_tarefas">Desafio 08 - Gerenciador de tarefas</a></td>
+      <td align="center" width="250px">Uma API REST completa para gerenciamento de tarefas, o projeto permite criar, organizar e rastrear tarefas em times com autenticação segura e histórico de alterações.</td>
+    </tr>
+    <tr>
+      <td><a href="Projeto13_refund_api">Projeto 13 - API do App Refund</a></td>
+      <td align="center" width="250px">PI de solicitação e acompanhamento de reembolsos</td>
+    </tr>
+    <tr>
+      <td><a href="Projeto14_adivinhe">Projeto 14 - Adivinhe</a></td>
+      <td align="center"><a href="Projeto14_adivinhe"><img width="250px" src="Projeto14_adivinhe/project.jpg" /></a></td>
+    </tr>
+    <tr>
+      <td><a href="Projeto15_refund2_react">Projeto 15 - Refund completo Back e Front</a></td>
+      <td align="center"><a href="Projeto15_refund2_react"><img width="250px" src="Projeto15_refund2_react/web/project.png" /></a></td>
+    </tr>
   </tbody>
 </table>
